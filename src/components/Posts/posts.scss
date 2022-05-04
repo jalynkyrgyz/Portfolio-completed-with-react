@@ -1,0 +1,18 @@
+.post {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+
+    li {
+        border: 2px solid black;
+        margin: 2px;
+        width: 45%;
+        list-style: none;
+
+        p {
+            color: rgb(247, 4, 4);
+        }
+    }
+
+
+}

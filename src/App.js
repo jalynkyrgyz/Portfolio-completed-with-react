@@ -1,13 +1,9 @@
 import {Routes, Route} from "react-router-dom";
-import Navbar from "./components/Navbar/Navbar";
-import Home from "./Pages/Home/Home";
-import About from "./Pages/About/About";
-import Blog from "./Pages/Blog/Blog";
-import Services from "./Pages/Services/Services";
-import Contact from "./Pages/Contact/Contact";
+import { Navbar } from "./components";
+
+import { Home, About, Blog, Services, Contact, Notfound } from "./Pages";
 
 import './app.scss';
-import Notfound from "./Pages/Notfound/Notfound";
 
 function App() {
   return (
